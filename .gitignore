@@ -1,0 +1,15 @@
+# Ignore Keras/HDF5 model files
+*.h5
+*.hdf5
+*.h5py
+*.keras
+*.npz
+
+# Ignore Keras config/cache directory
+.keras/
+.keras
+
+# Common Keras/TensorFlow checkpoints/logs (optional)
+checkpoints/
+logs/
+keras_logs/
